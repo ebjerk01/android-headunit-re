@@ -19,3 +19,5 @@ unit here. Platform: [mt8127-ac8227l](../../platforms/mt8127-ac8227l/).
 | [tools/](tools/) | `pkg.bin` RC4, `88xj` (un)packer, boot-pull / boot-only package builder (experimental) |
 
 VW cluster CAN (shared across VW units): [../../docs/vw-media-text.md](../../docs/vw-media-text.md).
+
+**Factory/engineering codes:** [ACCESS-CODES.md](ACCESS-CODES.md) (8888 factory menu, 8877, 0128/0129 CAN log, …).

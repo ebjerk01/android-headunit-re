@@ -24,3 +24,5 @@ A VW double-DIN aftermarket head unit on **AllWinner F133 + MelisOS** (see
 - MCU serial + CAN box protocol (same structure as the other units — the box is a VW translator).
 - Whether the Melis UI exposes any media/track data that could feed the VW cluster
   ([../../docs/vw-media-text.md](../../docs/vw-media-text.md)).
+
+**Factory/engineering codes:** [access-codes.md](access-codes.md) (113266 factory, 000000 update, 112233 logo, …).
