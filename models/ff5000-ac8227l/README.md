@@ -14,10 +14,11 @@ unit here. Platform: [mt8127-ac8227l](../../platforms/mt8127-ac8227l/).
 | [flash-magisk.md](flash-magisk.md) | Magisk-on-boot — ⛔ NOT confirmed working (both no-cable routes failed) |
 | [carclient.md](carclient.md) | `com.ts.car.client` hidden MQTT telemetry + remote-management agent |
 | [juncan-txz.md](juncan-txz.md) | `com.txznet.trace` second cloud agent (voice/telematics) |
+| [mainui.md](mainui.md) | The vendor UI app (`com.ts.MainUI`): component map, native hardware API, factory-code dispatch, config surface, custom-OS seams |
 | [app-triage.md](app-triage.md) | Security triage of the remaining vendor apps |
 | [re-targets.md](re-targets.md) | Backlog of components worth decompiling |
 | [tools/](tools/) | `pkg.bin` RC4, `88xj` (un)packer, boot-pull / boot-only package builder (experimental) |
 
 VW cluster CAN (shared across VW units): [../../docs/vw-media-text.md](../../docs/vw-media-text.md).
 
-**Factory/engineering codes:** [ACCESS-CODES.md](ACCESS-CODES.md) (8888 factory menu, 8877, 0128/0129 CAN log, …).
+**Factory/engineering codes:** [ACCESS-CODES.md](ACCESS-CODES.md) (8888 factory menu, 8877, 0129 CAN log, 0128 CAN-box update, …); full dispatch table in [mainui.md](mainui.md).
